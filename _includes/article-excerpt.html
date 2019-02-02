@@ -1,0 +1,20 @@
+<div class="col-md-6 col-lg-4">
+    <a class="portfolio-item d-block mx-auto" href="{{ site.baseurl }}{{ post.url }}">
+        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                {{ post.title }}
+            </div>
+        </div>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/portfolio/game.png" alt="">
+    </a>
+    <div class="portfolio-caption text-center">
+        <h4>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h4>
+        <p class="lead">
+            {{ page.date | date: "%B %e, %Y" }}
+        </p>
+    </div>
+</div>

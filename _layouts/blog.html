@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Blog Header and Description -->
+<header class="masthead bg-primary text-white text-center">
+    <div class="container">
+        <h1 class="text-uppercase mb-0">
+            Elite Blog
+        </h1>
+        <hr class="star-light">
+    </div>
+</header>
+
+<!-- Portfolio Grid -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="row">
+            {% for post in site.posts %}
+            {% include article-excerpt.html %}
+            {% endfor %}
+        </div>
+        {% include pagination.html %}
+    </div>
+</section>

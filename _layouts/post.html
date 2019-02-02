@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<header class="masthead bg-primary text-white text-center">
+  <div class="container">
+      <h1 class="text-uppercase mb-0">
+        {{ page.title }}
+      </h1>
+      <hr class="star-light">
+      <!-- Date and Author -->
+      <h2 class="lead">
+        {{ page.date | date: "%B %e, %Y" }}
+          by
+          {{ page.author }}
+      </h2>
+  </div>
+</header>
+<div class="container text-center">
+  <br />
+  <div class="row">
+      <div class="col-lg-8 mx-auto">
+          <div class="lead">
+              <!-- Content -->
+              {{ content }}
+          </div>
+          
+      </div>
+  </div>
+</div>
+<div class="container">
+  {% include disqus.html %}
+</div>
