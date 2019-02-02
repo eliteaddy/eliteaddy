@@ -13,9 +13,9 @@ Note: This is Just a freestyle app not commercial and only the code is uploaded 
 
 It was made with [Cordova](https://cordova.apache.org) using frameworks like
 Framework 7
-Cordova Contact Plugging
-Cordova Contact PhoneNumber Plugging
-Cordova CallNumber Plugging
-Cordova Status Plugging etc.
+* Cordova Contact Plugging
+* Cordova Contact PhoneNumber Plugging
+* Cordova CallNumber Plugging
+* Cordova Status Plugging etc.
 
 You can download the source code here [Cordova Contact](https://github.com/eliteaddy/Cordova-Contact)
