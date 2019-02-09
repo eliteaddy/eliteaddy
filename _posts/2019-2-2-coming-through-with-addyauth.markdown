@@ -6,7 +6,7 @@ categories: nodejs
 author: MasterAddy
 ---
 I've Started a project named AddyAuth.
-This is just a simple website with Authentication (i.e Login, Register, Dashboard and SignOut).
+This is just a simple website with Authentication (i.e Login, Register, Dashboard and Logout).
 
 It was made with [Nodejs](https://nodejs.org) using 
 * Express js
@@ -17,4 +17,5 @@ It was made with [Nodejs](https://nodejs.org) using
 * Connect Flash
 * Mongoose (To connect mongodb) etc.
 
-It will be launch soon at [Heroku](https://heroku.com)
+You can check it out at [AddyAuth App](https://addyauthapp.herokuapp.com)
+Comment below on what you feel about the app.
