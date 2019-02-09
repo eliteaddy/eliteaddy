@@ -17,5 +17,6 @@ It was made with [Nodejs](https://nodejs.org) using
 * Connect Flash
 * Mongoose (To connect mongodb) etc.
 
-You can check it out at [AddyAuth App](https://addyauthapp.herokuapp.com)
+You can check it out at [AddyAuth](https://addyauth.herokuapp.com)
+
 Comment below on what you feel about the app.
